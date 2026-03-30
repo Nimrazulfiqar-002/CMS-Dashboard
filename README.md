@@ -53,7 +53,7 @@ Edit Button	For editing table row
 Delete Button	For deleting table row
 
 📸 UI Sections
-
+![image alt](https://github.com/Nimrazulfiqar-002/CMS-Dashboard/blob/6be5527ffa0866c1810414bd72d475603f4ef023/images/cms-1.PNG)
 
 🎯 Learning Purpose
 
