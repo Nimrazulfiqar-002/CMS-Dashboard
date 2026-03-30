@@ -68,11 +68,145 @@
 
         
     </nav>
-    <div class="table-content">
-        <h1>table</h1>
+
+    <!-- table content -->
+    <div class="table-container">
+    <div class="table-head" id="top-navigation">
+         <div  id="item3">
+                <span>Order catalogue</span>
+                <span id="new-items-batch">
+                    New items
+                </span>
+            </div>
+            
+            <div id="item2" >
+                <div id="item1">
+                     <span class="search-background" id="item1">
+                     <i class="fa fa-sort search-icon"></i>
+                    <input type="text" placeholder=" Select Column"  >
+                    
+                </span>
+                </div>
+               <div id="item1">
+                <span class="search-background">
+                     <i class="fa fa-search search-icon"></i>
+                    <input type="text" placeholder=" Search List..."  >
+                </span>
+               </div>
+               
+                </span>
+                <span>
+                    <button class="add-btn">Add New</button>
+                </span>
+                
+            </div>
+
+    
+</div>
+       <div>
+        <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Product</th>
+                <th>Serial-code</th>
+                <th>Stock</th>
+                <th>Category</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>03</td>
+                <td class="product-name">Macbook pro 16</td>
+                <td>#123-456ABC</td>
+                <td>123</td>
+                <td>Apple</td>
+                <td class="action">
+                    <a href="#" class="edit">Edit</a>
+                    <a href="#" class="delete">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td class="product-name">Macbook pro 16</td>
+                <td>#123-456ABC</td>
+                <td>123</td>
+                <td>Apple</td>
+                <td class="action">
+                    <a href="#" class="edit">Edit</a>
+                    <a href="#" class="delete">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td class="product-name">Macbook pro 16</td>
+                <td>#123-456ABC</td>
+                <td>123</td>
+                <td>Apple</td>
+                <td class="action">
+                    <a href="#" class="edit">Edit</a>
+                    <a href="#" class="delete">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td class="product-name">Macbook pro 16</td>
+                <td>#123-456ABC</td>
+                <td>123</td>
+                <td>Apple</td>
+                <td class="action">
+                    <a href="#" class="edit">Edit</a>
+                    <a href="#" class="delete">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td class="product-name">Macbook pro 16</td>
+                <td>#123-456ABC</td>
+                <td>123</td>
+                <td>Apple</td>
+                <td class="action">
+                    <a href="#" class="edit">Edit</a>
+                    <a href="#" class="delete">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div> 
+
+        <!-- bottom pagination -->
+
+    <div class="table-bottom">
+    <div class="pagination">
+        <span class="arrow">&#8249;</span>
+        <span class="page">1</span>
+        <span class="page active">2</span>
+        <span class="page">3</span>
+        <span class="page">4</span>
+        <span class="dots">...</span>
+        <span class="page">10</span>
+        <span class="arrow">&#8250;</span>
+    </div>
+
+    <div class="items-dropdown">
+        <select id="itemsPerPage">
+            <option value="10">Display 10 items</option>
+            <option value="20">Display 20 items</option>
+            <option value="50">Display 50 items</option>
+        </select>
     </div>
     </div>
-   
+
+
+    </div>
+
+    </div>
+   <script src="./script.js"></script>
     
 </body>
 </html>
