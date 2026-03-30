@@ -54,6 +54,7 @@ Delete Button	For deleting table row
 
 📸 UI Sections
 ![image alt](https://github.com/Nimrazulfiqar-002/CMS-Dashboard/blob/6be5527ffa0866c1810414bd72d475603f4ef023/images/cms-1.PNG)
+![image alt](https://github.com/Nimrazulfiqar-002/CMS-Dashboard/blob/1ad8675f93a38a7835fa4d3ef61356e6274951b7/images/cms-2.PNG)
 
 🎯 Learning Purpose
 
