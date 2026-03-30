@@ -19,9 +19,9 @@ The goal of this project was to practice real-world frontend development and con
 
 I designed and developed this UI pixel-perfect from a Figma design.
 
-If needed, I can also add the Figma design link here.
+The Figma design link here.
 
-Figma Design Link: (Add your Figma link here)
+Figma Design Link: (https://www.figma.com/design/hgwNvA2TxpvtJcEtNJjgqp/CMS-Template--Community-?node-id=0-1&t=DDUuIfrjRc3SKIYN-1)
 
 🚀 Features
 Pixel-perfect UI from Figma
