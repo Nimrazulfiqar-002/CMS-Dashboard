@@ -295,3 +295,16 @@ table {
     font-size: 14px;
     outline: none;
 }
+
+
+
+
+/* Responsive-layout */
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
