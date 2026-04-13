@@ -170,7 +170,6 @@ color: var(--color-body-text-dark);
 
 /* table container */
 .table-container{
-/* margin: 14px; */
 background-color: white;
 height: 100vh;
 }
@@ -485,7 +484,7 @@ color: var(--color-body-text-dark);
     display: block
 } */
 .add-btn{
-    width: 100vw;
+    width: 95vw;
 }
 .items-dropdown select{
     display: none;
@@ -502,7 +501,7 @@ color: var(--color-body-text-dark);
 }
 .cards{
     background-color: white;
-    width: 100vw;
+    width: 95vw;
     margin: 0 auto;
     gap: 12px;
     display: flex;
@@ -727,7 +726,7 @@ color: var(--color-body-text-dark);
     display: block
 } */
 .add-btn{
-    width: 100vw;
+    width: 95vw;
 }
 .items-dropdown select{
     display: none;
@@ -744,7 +743,7 @@ color: var(--color-body-text-dark);
 }
 .cards{
     background-color: white;
-    width: 100vw;
+    width: 95vw;
     margin: 0 auto;
     gap: 12px;
     display: flex;
