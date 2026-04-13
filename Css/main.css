@@ -484,7 +484,7 @@ color: var(--color-body-text-dark);
     display: block
 } */
 .add-btn{
-    width: 95vw;
+    width: 90vw;
 }
 .items-dropdown select{
     display: none;
@@ -501,13 +501,12 @@ color: var(--color-body-text-dark);
 }
 .cards{
     background-color: white;
-    width: 95vw;
+    width: 90vw;
     margin: 0 auto;
     gap: 12px;
     display: flex;
     flex-direction: column;
     justify-content:space-around ;
-            width: 100vw;
 }
 .card{
     padding: 20px;
@@ -726,7 +725,7 @@ color: var(--color-body-text-dark);
     display: block
 } */
 .add-btn{
-    width: 95vw;
+    width: 90vw;
 }
 .items-dropdown select{
     display: none;
@@ -743,13 +742,12 @@ color: var(--color-body-text-dark);
 }
 .cards{
     background-color: white;
-    width: 95vw;
+    width: 90vw;
     margin: 0 auto;
     gap: 12px;
     display: flex;
     flex-direction: column;
     justify-content:space-around ;
-            width: 100vw;
 }
 .card{
     padding: 20px;
