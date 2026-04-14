@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
 <link rel="stylesheet" href="./Css/main.css">
+<script src="./script.js" defer></script>
     <title>CMS Dashboard</title>
 </head>
 <body>
@@ -121,16 +122,25 @@
                
                 </span>
                 <span>
-                    <button class="add-btn">Add New</button>
+                    <button class="add-btn" onclick="showForm()">Add New</button>
                 </span>
                 
             </div>
 
     
 </div>
+        <!-- form -->
+        <form id="formContainer" style="display: none;" onsubmit="handleSubmit(event)">
+            <!-- <input type="text" placeholder="id" id="input-id"> -->
+            <input type="text" placeholder="Product" id="input-product">
+            <input type="text" placeholder="Serial code" id="input-serial">
+            <input type="text" placeholder="Stock" id="input-stock">
+            <input type="text" placeholder="Category" id="input-category">
+            <button id="do">Done</button>
+        </form>
 
        <div>
-        <table>
+        <table id="userTable">
         <thead>
             <tr>
                 <th>#</th>
@@ -141,8 +151,8 @@
                 <th>Actions</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
+        <tbody >
+            <!-- <tr>
                 <td>03</td>
                 <td class="product-name">Macbook pro 16</td>
                 <td>#123-456ABC</td>
@@ -200,7 +210,7 @@
                     <a href="#" class="edit">Edit</a>
                     <a href="#" class="delete">Delete</a>
                 </td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
     
@@ -209,8 +219,8 @@
      <div class="card-container">
 
         <div class="cards">
-
-            <div class="card">
+            <div class="card"> 
+            
                 <div class="content">
 
                 <div class="space1">
@@ -376,10 +386,18 @@
                 
                
                 </div>
-            </div>
+            </div>  -->
 
         </div>
         
+    <div id="formContainer" style="display:none;">
+    <input id="name" placeholder="Name">
+    <input id="serial" placeholder="Serial">
+    <input id="stock" placeholder="Stock">
+    <input id="category" placeholder="Category">
+
+    <button onclick="handleSubmit()" id="submitBtn">Add</button>
+   </div>
 
      </div>
     </div> 
@@ -412,5 +430,5 @@
     </div>
  
 </body>
-<script src="./script.js"></script>
+
 </html>
